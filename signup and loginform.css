@@ -1,0 +1,89 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  background-color: #ffffff;
+}
+.form {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%,0%);
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #328bff;
+  padding: 2.5em;
+  border-radius: 25px;
+  transition: .4s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.4) 1px 2px 2px;
+}
+
+.form:hover {
+  border: 1px solid #171717;
+  box-shadow: 10px 10px 0px #666666;
+}
+
+.heading {
+  color: black;
+  padding-bottom: 2em;
+  text-align: center;
+  font-weight: bold;
+  color:white;
+}
+
+.input {
+  border-radius: 5px;
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+  outline: none;
+  padding: 0.7em;
+  transition: .4s ease-in-out;
+}
+
+.input:hover {
+  box-shadow: 6px 6px 0px #969696,
+             -1.5px -1.5px 5px #ffffff;
+}
+
+.input:focus {
+  background: #ffffff;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+}
+
+.form .btn {
+  margin-top: 2em;
+  align-self: center;
+  padding: 0.7em;
+  padding-left: 3em;
+  padding-right: 3em;
+  border-radius: 10px;
+  border: none;
+  color: black;
+  transition: .4s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+}
+
+.form .btn:hover {
+  box-shadow: 6px 6px 0px #969696,
+             -3px -3px 10px #ffffff;
+  transform: translateX(-0.5em) translateY(-0.5em);
+}
+
+.form .btn:active {
+  transition: .2s;
+  transform: translateX(0em) translateY(0em);
+  box-shadow: none;
+}
+p{
+ font-size: 2rem; 
+align-items: center;
+}
+h5{
+position: absolute;
+bottom: 17%;
+right: 18%;
+cursor: default;
+}
